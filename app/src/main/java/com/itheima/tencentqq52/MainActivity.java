@@ -1,7 +1,5 @@
 package com.itheima.tencentqq52;
 
-import java.util.Random;
-
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -16,13 +14,34 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.itheima.tencentqq52.drag.DragLayout;
-import com.itheima.tencentqq52.drag.MyLinearLayout;
 import com.itheima.tencentqq52.drag.DragLayout.OnDragStatusChangeListener;
+import com.itheima.tencentqq52.drag.MyLinearLayout;
 import com.itheima.tencentqq52.util.Cheeses;
 import com.itheima.tencentqq52.util.Utils;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.view.ViewHelper;
 
+import java.util.Random;
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：     http://blog.csdn.net/axi295309066
+ * 微博：     AndroidDeveloper
+ * <p>
+ * Project_Name：TencentQQ52
+ * Package_Name：com.itheima.tencentqq52
+ * Version：1.0
+ * time：2016/2/15 16:40
+ * des ：${TODO}
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 public class MainActivity extends Activity {
 
 	private static final String TAG = "TAG";
