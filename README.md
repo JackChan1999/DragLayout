@@ -1,5 +1,5 @@
 本篇博客讲解的是自定义View之侧滑面板，应用场景：QQ，知乎，效果图如下
-![这里写图片描述](http://img.blog.csdn.net/20160911235727896)
+![DragLayout](http://img.blog.csdn.net/20160911235727896)
 ##**一、内容摘要**
 - 了解ViewDragHelper 的产生及解决的问题
 - 掌握ViewDragHelper 的使用步骤
