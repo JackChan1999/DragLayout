@@ -1,6 +1,8 @@
 本篇博客讲解的是自定义View之侧滑面板，应用场景：QQ，知乎，效果图如下
 
-![DragLayout](http://img.blog.csdn.net/20160911235727896)
+![DragLayout](https://github.com/JackChen1999/DragLayout/blob/master/art/DragLayout-1.png)
+
+![](https://github.com/JackChen1999/DragLayout/blob/master/art/DragLayout-2.png) ![](https://github.com/JackChen1999/DragLayout/blob/master/art/DragLayout-3.png)
 
 ##**一、内容摘要**
 
