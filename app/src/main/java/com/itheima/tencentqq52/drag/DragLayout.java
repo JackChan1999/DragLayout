@@ -93,7 +93,7 @@ public class DragLayout extends FrameLayout {
 		public boolean tryCaptureView(View child, int pointerId) {
 			Log.d(TAG, "tryCaptureView: " + child);
 			return true;
-		};
+		}
 		
 		@Override
 		public void onViewCaptured(View capturedChild, int activePointerId) {
