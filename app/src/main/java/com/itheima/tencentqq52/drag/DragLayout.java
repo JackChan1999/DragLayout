@@ -145,8 +145,8 @@ public class DragLayout extends FrameLayout {
 			
 			if(changedView == mLeftContent) {
 				// 当左面板移动之后, 再强制放回去.
-				mLeftContent.layout(0, 0, 0 + mWidth, 0 + mHeight);
-				mMainContent.layout(newLeft, 0, newLeft + mWidth, 0 + mHeight);
+				mLeftContent.layout(0, 0, mWidth, mHeight);
+				mMainContent.layout(newLeft, 0, newLeft + mWidth, mHeight);
 			}
 			// 更新状态,执行动画
 			dispatchDragEvent(newLeft);
@@ -178,7 +178,6 @@ public class DragLayout extends FrameLayout {
 
 		@Override
 		public void onViewDragStateChanged(int state) {
-			// TODO Auto-generated method stub
 			super.onViewDragStateChanged(state);
 		}
 
