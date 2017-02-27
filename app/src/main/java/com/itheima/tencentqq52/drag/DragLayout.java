@@ -223,7 +223,7 @@ public class DragLayout extends FrameLayout {
 			}
 		}
 		
-//		* 伴随动画:
+		// 伴随动画:
 		animViews(percent);
 		
 	}

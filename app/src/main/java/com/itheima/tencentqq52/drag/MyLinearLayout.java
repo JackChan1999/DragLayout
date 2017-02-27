@@ -62,7 +62,6 @@ public class MyLinearLayout extends LinearLayout {
 			if(event.getAction() == MotionEvent.ACTION_UP){
 				mDragLayout.close();
 			}
-			
 			return true;
 		}
 	}
