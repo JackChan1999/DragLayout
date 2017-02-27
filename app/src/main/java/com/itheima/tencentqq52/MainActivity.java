@@ -107,9 +107,7 @@ public class MainActivity extends Activity {
 		});
 		
 		mMainList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Cheeses.NAMES));
-		
-		
-		
+
 	}
 
 }
